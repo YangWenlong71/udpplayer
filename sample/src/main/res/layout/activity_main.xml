@@ -2,8 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.example.zhangyang.ijktest.cn.example.zhangyang.ijktest.MainActivity">
+    android:layout_height="match_parent">
 
     <tv.danmaku.ijk.media.widget.media.IjkVideoView
         android:id="@+id/ijkPlayer"
@@ -12,8 +11,13 @@
         android:layout_height="match_parent" />
 
 <TextView
+    android:textSize="30dp"
+    android:text="@string/app_name"
+    android:textColor="#ffffff"
+    android:textStyle="italic"
+    android:gravity="center|bottom"
     android:id="@+id/tv_url_hint"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"/>
+    android:layout_height="match_parent"/>
 
 </RelativeLayout>

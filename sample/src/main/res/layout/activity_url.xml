@@ -5,25 +5,47 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    tools:context="cn.titansys.udpdemo.ijktest.UrlActivity">
+    tools:context="cn.titansys.xview_pptv.activity.InitActivity">
 
     <LinearLayout
+        android:layout_weight="3"
         android:gravity="center"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <EditText
-            android:id="@+id/edt_url"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"/>
 
-        <Button
+        <cn.titansys.xview_pptv.activity.ButtonStyle
             android:id="@+id/btn_player"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="player" />
+            android:text="udp" />
 
+        <cn.titansys.xview_pptv.activity.ButtonStyle
+            android:id="@+id/btn_player2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="m3u8" />
+
+        <cn.titansys.xview_pptv.activity.ButtonStyle
+            android:id="@+id/btn_player3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="http" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/ll_video"
+            android:layout_width="600dp"
+            android:layout_height="400dp">
+
+            <include layout="@layout/activity_main"/>
+        </LinearLayout>
     </LinearLayout>
 
 </LinearLayout>

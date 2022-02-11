@@ -8,4 +8,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+        <declare-styleable name="my_button">
+            <attr name="text_color" format="color"></attr>
+            <attr name="bg_color" format="color"></attr>
+        </declare-styleable>
+
+
+
 </resources>

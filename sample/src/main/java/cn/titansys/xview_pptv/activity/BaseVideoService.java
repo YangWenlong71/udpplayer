@@ -1,4 +1,4 @@
-package cn.titansys.udpdemo.ijktest;
+package cn.titansys.xview_pptv.activity;
 
 import android.app.Service;
 import android.content.Context;

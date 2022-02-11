@@ -4,7 +4,7 @@ android {
     compileSdkVersion 31
 
     defaultConfig {
-        applicationId "cn.titansys.udpdemo.ijktest"
+        applicationId "cn.titansys.xview_pptv"
         minSdkVersion 19
         targetSdkVersion 31
         versionCode 1
@@ -21,6 +21,6 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:28.0.0'
-    api project(':IjkLib')
+    implementation project(':IjkLib')
     implementation 'com.android.support.constraint:constraint-layout:2.0.4'
 }

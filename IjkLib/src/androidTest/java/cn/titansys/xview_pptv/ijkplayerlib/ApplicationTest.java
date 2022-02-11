@@ -1,4 +1,4 @@
-package cn.titansys.udpdemo.ijkplayerlib;
+package cn.titansys.xview_pptv.ijkplayerlib;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
